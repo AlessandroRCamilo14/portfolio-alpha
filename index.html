@@ -16,30 +16,30 @@
 </head>
 
 <body>
-    <header><!--Menu Superior-->
-        <nav>
+    <header>
+        <nav class="menuh">
             <div class="logo">
                 <img src="./img/Logo Alessandro.png" alt="Logo Alessandro">
             </div>
-            <div class="menudesktop">
-                <ul>
-                    <li><a href="#inicio">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#especialidades">Especialidades</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
-            <div class="btnzap">
-                <a href="tel:+5531991508982"><button>Whatsapp</button></a>
-            </div>
 
+            <ul>
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
-    </header><!--Fim Menu Superior-->
-
-    <section class="home" id="inicio">
-        <div class="homepage">
-            <div class="container">
+    </header>
+    <section class="video-section" id="inicio">
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="./video/IA3nr(540p).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="caixa1">
+            <div class="text-container">
                 <h1>Bem vindo ao meu mundo.</h1>
                 <h2>Alessandro Reis Camilo</h2>
                 <h3><span class="multiple-text">Desenvolvedor Front End</span></h3>
@@ -47,33 +47,42 @@
             <div class="linguagens1">
                 <img src="./linguagens/icons8-html5-480.png" alt="HTML5">
                 <img src="./linguagens/icons8-css3-480.png" alt="CSS3">
-                <img src="./linguagens/icons8-git-480.png" alt="GIT">
-                <img src="./linguagens/icons8-github-480.png" alt="GITHUB">
-                <img src="./linguagens/icons8-javascript-480.png" alt="JAVASCRIPT">
+                <img src="./linguagens/icons8-git-480.png" alt="Git">
+                <img src="./linguagens/icons8-github-480.png" alt="github">
+                <img src="./linguagens/icons8-javascript-480.png" alt="Javascript">
             </div>
         </div>
     </section><!--fim de home-->
+    <a href="https://api.whatsapp.com/send?phone=5531991508982" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="botão do whatsapp">
+    </a>
     <section class="sobre" id="sobre">
-        <title>Sobre</title>
         <div class="container">
             <div class="fotoale">
                 <img src="./img/fotoale1.png" alt="Foto Alessandro">
             </div> <!--fim de fotoale-->
             <div class="texto">
-                <h3>Sou Alessandro e sou Desenvolvedor Front-end</h3>
-                <p>Olá, meu nome é Alessandro Reis Camilo e sou um programador front end. Atualmente estou em
-                    transição da profissão de Balanceiro para área de programação. Busco me capacitar para entrar na
-                    área da programação realizando curso de Programador Full Stack.
+                <h1> Sobre </h1>
+                <h2>Sou Alessandro e sou Desenvolvedor Front-end</h2>
+                <p>Olá, meu nome é Alessandro Reis Camilo. Sou um apaixonado pelo mundo da tecnologia desde os tempos do
+                    video game Atari. Com o incentivo de neus pais, entre 1997 e 1999, fui apresentado pela primeira vez
+                    a programação como uma das matérias lecionadas no curso tecnico de Processamento de Dados, onde por
+                    parte da instituição que não estava em seus anos bons, o ensino ficou defazado devido a falta de
+                    investimento da instituição em materiais de melhor qualidade.
                 </p>
                 <br>
-                <p>Sou Técnico em Processamento de Dados desde Dezembro de 2000. Trabalhei como Operador de
-                    Telemarketing, Auxiliar Administrativo e Balanceiro desde então.
-                    Hoje estou tendo uma chance de entrar nesse mercado da qual tanto desejei desde a minha
-                    juventude, adquirindo conhecimento no curso do DevClub voltado para a formação de Programadores
-                    Full Stack.
-                    Como forma de adquirir experiência na área, estou desenvolvendo projetos da qual fazem parte do
-                    meu portfólio e também busco trabalhos freelancers.
+                <p>Concluído o curso, tinha consciência de que precisava adquirir mais conhecimento na area tecnica para
+                    estar apto a atuar como Tecnico em Processamento de Dados, mas não tinha recursos financeiros para
+                    realizar tal investimento. Busquei emprego compativeis com o conhecimento que tinha naquela época e
+                    fui sempre me atualizando posteriormente com cursos extracurriculares na area da informática. No
+                    inicio de 2007 comprei o meu primeiro computador e ele me auxiliou a aprimorar os meus
+                    conhecimentos.
                 </p>
+                <br>
+                <p> Em Setembro de 2023, vejo uma luz para conquistar o emprego dos sonhos. Assiti uma live de
+                    Programação pelo Youtube do DevClub. Resolvi entrar para o curso. Agradeço a mim mesmo pela decisão
+                    e ao mentor da live pelo convite em forma de puxão de orelha, me incentivando a investir na
+                    programação.</p>
                 <div class="btncv">
                     <a href="./curriculo/cv alessandro reis camilo.pdf"
                         download="cv alessandro reis camilo.pdf"><button>Download CV</button></a>
@@ -82,7 +91,7 @@
         </div><!--fim de container-->
     </section><!--fim de sobre-->
     <section class="especialidades" id="especialidades">
-        <title>Especialidades</title>
+        <h1> Especialidades </h1>
         <div class="container">
             <div class="card">
                 <img src="./linguagens/icons8-html5-48.png" alt="Icone HTML5">
@@ -112,8 +121,9 @@
             </div>
         </div><!--Fim de container-->
     </section> <!--Fim da Section especialidades-->
+    
     <section class="projetos" id="projetos">
-        <title>Projetos</title>
+        <h1>Projetos</h1>
         <div class="textap">
             <p> Nesta sessão está uma história minha no mundo da programação. O começo, os erros e acertos se
                 encontram
@@ -249,7 +259,7 @@
             </div>
     </section><!--Fim de projetos-->
     <section class="contato" id="contato">
-        <title>Contato</title>
+        <h1>Contato</h1>
         <div class="container">
             <div class="formulario">
                 <h3>Formulário de Contato</h3>
@@ -271,15 +281,16 @@
                         src="./rsocial/icons8-linkedin-480.png" target="_blank"></a>
                 <a href="https://twitter.com/AlessandroReisc" target="_blank"><img class="rsocial"
                         src="./rsocial/icons8-twitter-480.png" target="_blank"></a>
-                <a href="https://wa.me/5531991508985" target="_blank"><img class="rsocial"
-                        src="./rsocial/icons8-whatsapp-480.png" target="_blank"></a>
+                
             </div>
         </div>
     </section> <!--Fim de contato-->
     <footer>
         <p>Copyright &#169 2024 by Alessndro Reis Camilo - Todos os Direitos Reservados - Portfólio Alpha V1.0</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
