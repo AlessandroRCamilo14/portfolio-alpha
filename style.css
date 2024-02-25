@@ -344,8 +344,8 @@ nav {
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 60px;
-    width: 236px;
-    height: 280px;
+    width: 238px;
+    height: 284px;
     background: rgba(12, 84, 160, 0.45);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(7px);
@@ -358,7 +358,7 @@ nav {
 .projetos .container .line2 .card img,
 .projetos .container .line3 .card img,
 .projetos .container .line4 .card img {
-    width: 220px;
+    width: 224px;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -387,10 +387,9 @@ nav {
 .projetos .container .line1 .card .logoprog {
     width: 20px;
     display: inline-block;
-    margin-right: 10px;
     margin-left: 12px;
     margin-top: 6px;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 .projetos .container .line1 .card button,
