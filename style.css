@@ -266,7 +266,7 @@ nav {
 }
 
 .especialidades .container .card {
-    padding top: 20px;
+    padding-top: 20px;
     margin-left: 60px;
     width: 180px;
     height: 280px;
@@ -386,7 +386,10 @@ nav {
     color: #B0C4DE;
 }
 
-.projetos .container .line1 .card .logoprog {
+.projetos .container .line1 .card .logoprog,
+.projetos .container .line2 .card .logoprog, 
+.projetos .container .line3 .card .logoprog,
+.projetos .container .line4 .card .logoprog{
     width: 20px;
     display: inline-block;
     margin-left: 12px;
