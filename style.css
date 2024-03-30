@@ -341,7 +341,8 @@ nav {
 .projetos .container .line1 .card,
 .projetos .container .line2 .card,
 .projetos .container .line3 .card,
-.projetos .container .line4 .card {
+.projetos .container .line4 .card, 
+.projetos .container .line5 .card{
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -359,7 +360,8 @@ nav {
 .projetos .container .line1 .card img,
 .projetos .container .line2 .card img,
 .projetos .container .line3 .card img,
-.projetos .container .line4 .card img {
+.projetos .container .line4 .card img,
+.projetos .container .line5 .card img {
     width: 224px;
     margin: 5px;
     display: flex;
@@ -371,7 +373,8 @@ nav {
 .projetos .container .line1 .card h3,
 .projetos .container .line2 .card h3,
 .projetos .container .line3 .card h3,
-.projetos .container .line4 .card h3 {
+.projetos .container .line4 .card h3, 
+.projetos .container .line5 .card h3{
     color: #00FF08;
     display: flex;
     justify-content: center;
@@ -380,7 +383,8 @@ nav {
 .projetos .container .line1 .card p,
 .projetos .container .line2 .card p,
 .projetos .container .line3 .card p,
-.projetos .container .line4 .card p {
+.projetos .container .line4 .card p,
+.projetos .container .line5 .card p {
     display: flex;
     justify-content: center;
     color: #B0C4DE;
@@ -389,7 +393,8 @@ nav {
 .projetos .container .line1 .card .logoprog,
 .projetos .container .line2 .card .logoprog, 
 .projetos .container .line3 .card .logoprog,
-.projetos .container .line4 .card .logoprog{
+.projetos .container .line4 .card .logoprog,
+.projetos .container .line5 .card .logoprog{
     width: 20px;
     display: inline-block;
     margin-left: 12px;
@@ -400,7 +405,8 @@ nav {
 .projetos .container .line1 .card button,
 .projetos .container .line2 .card button,
 .projetos .container .line3 .card button,
-.projetos .container .line4 .card button {
+.projetos .container .line4 .card button,
+.projetos .container .line5 .card button {
     margin-left: 8px;
     margin-top: 15px;
     padding: 12px;
@@ -417,7 +423,8 @@ nav {
 .projetos .container .line1 .card button:hover,
 .projetos .container .line2 .card button:hover,
 .projetos .container .line3 .card button:hover,
-.projetos .container .line4 .card button:hover {
+.projetos .container .line4 .card button:hover,
+.projetos .container .line5 .card button:hover {
     background: rgba(208, 2, 27, 0.3);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(7.5px);
